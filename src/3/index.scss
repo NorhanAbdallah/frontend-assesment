@@ -1,0 +1,39 @@
+/* DO NOT CHANGE THIS ROOT CLASS NAME*/
+#task-3 {
+  /* Styles goes here */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #003951;
+}
+
+.todo-header {
+  width: 52%;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.add-task-input {
+  padding: 10px 10px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  margin-right: 10px;
+}
+
+.add-task-btn {
+  border-radius: 50%;
+  height: 35px;
+  border: none;
+  background: #dfbcff;
+  cursor: pointer;
+}
+
+.todo-title {
+  color: #dfbcff;
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 30px;
+}

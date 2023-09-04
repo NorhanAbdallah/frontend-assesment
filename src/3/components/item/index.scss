@@ -1,0 +1,51 @@
+.todo-item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e4e4e4;
+    color: black;
+    border-radius: 6px;
+    padding: 15px 10px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.todo-delete-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.todo-item-infos {
+    display: flex;
+    align-items: center;
+}
+
+.todo-checkbox {
+    margin-right: 10px;
+}
+
+.todo-item-state-container {
+    display: flex;
+}
+
+.task-state {
+    margin-right: 15px;
+    border: 1px solid;
+    padding: 0px 5px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+[data-state="todo"] {
+    color: green;
+    font-weight: bold;
+}
+
+
+[data-state="done"] {
+    color: #09baff;
+    font-weight: bold;
+}
